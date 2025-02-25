@@ -1,4 +1,4 @@
-I haven't experimented with various edge cases as in C yet, so I'm not entirely sure whether this transpiler works perfectly or if it might break the source code.  
+I haven't experimented with various edge cases as in C yet, so I'm not entirely sure whether this transpiler works perfectly or if it might break the source code targets.  
 
 If you'd like to try it out, feel free to do so.  
 
