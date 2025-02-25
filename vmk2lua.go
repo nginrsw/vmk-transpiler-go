@@ -16,7 +16,7 @@ func replaceInFile(filePath string) error {
 	}
 
 	// Replace 'lock' with 'local'
-	content = regexp.MustCompile(`\block\b`).ReplaceAll(content, []byte("local"))
+	content = regexp.MustCompile(`\blck\b`).ReplaceAll(content, []byte("local"))
 	// Replace 'fn' with 'function'
 	content = regexp.MustCompile(`\bfn\b`).ReplaceAll(content, []byte("function"))
 	// Replace 'str.' with 'string.'

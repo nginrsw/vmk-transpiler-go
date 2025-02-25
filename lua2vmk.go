@@ -16,7 +16,7 @@ func reverseInFile(filePath string) error {
 	}
 
 	// Replace 'local' with 'lock'
-	content = regexp.MustCompile(`\blocal\b`).ReplaceAll(content, []byte("lock"))
+	content = regexp.MustCompile(`\blocal\b`).ReplaceAll(content, []byte("lck"))
 	// Replace 'function' with 'fn'
 	content = regexp.MustCompile(`\bfunction\b`).ReplaceAll(content, []byte("fn"))
 	// Replace 'string.' with 'str.'
